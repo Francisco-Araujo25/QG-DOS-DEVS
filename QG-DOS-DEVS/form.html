@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>formulário de contato</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="serviço.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./imagens/QG dos Devs (1).png" alt="Qg dos Devs logo">
+        <div class="container">
+            <nav>
+                    <a href="Qg-dos-devs.html">Home</a>
+                    <a href="http://127.0.0.1:5500/sobre">Sobre Nós</a>
+                    <a href="serviços.html">Serviços</a>
+                    <a class="equipe" href="http://127.0.0.1:5500/equipe.html">Equipe</a>
+            </nav></div>
+          
+        
+        
+    </header>
+    <main>
+        <h1><Strong>Contato</Strong></h1>
+ 
+    <section class="contato-principal">
+        <form>
+            <label for="Nome" >Nome:</label>
+            <br>
+            <input type="text" id="nome" minlength="3" required>
+            <!--Quando um campo é obrigatório-->
+            <br> <br>
+            <label for="Telefone">Telefone:</label>
+            <br>
+            <input type="number" id="Telefone" min="14" required>
+            <br> <br>
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="email" id="email" required>
+            <br> <br>
+            <label for="msg"> Digite uma mensagem para nós:</label>
+            <br>
+            <textarea id="msg" cols="40" rows="6"></textarea>
+            <br> <br>
+            <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento" min="2005-01-01" required>
+            <br> <br>
+            <p><strong>Como prefere nosso contato?</strong></p>
+            <input type="radio" id="recebermsg" name="email">E-mail
+            <br>
+            <input type="radio" id="recebermsg" name="tel"> Telefone
+            <br>
+            <input type="radio" id="recebermsg" name="Whatsapp"> WhatsApp
+            <br> <br>
+            <label for="horario">Selecione o horário</label>
+            <select id="horario">
+                <option value="manha">Manhã</option>
+                <option value="Tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select>
+            <br> <br>
+
+        
+            <button class="bot" type="submit">Enviar</button>
+        </form>
+        
+            <div class="main-content">
+                <div class="maps-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.8352027367864!2d-51.1668753!3d-23.3217373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb43f6e01f0927%3A0x238d49a76faf9657!2sTata%20Consultancy%20Services%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1724955060172!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Av. Higienópolis, 1365 - Higienópolis, Londrina - PR, 86015-010</p>
+                    <br>
+               
+                <img src="./imagem-contato/gmail.png">tcs@gmail.com  
+                 <img class="img" src="./imagem-contato/instagram.png">TcsLondrina 
+                 <img class="img" src="./imagem-contato/whatsapp.png"> 43 9867-9898 
+                 
+                </div>
+            </div>
+   
+</section>
+<footer>© Copyright QG dos devs - 2024</footer>
+</main>
+</body>
+</html>
